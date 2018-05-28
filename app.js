@@ -1,10 +1,7 @@
 let print = (t) =>{
   let contador = 0;
   while (t.length > contador) {
+  console.log(t[contador].toUpperCase())
     contador++
   }
-let texto = prompt("asd");// ingresa datos
-/*while(texto.length > contador){
-console.log(texto[contador].toUpperCase());
-contador++;
-}
+let texto = prompt("escribe");// ingresa datos
