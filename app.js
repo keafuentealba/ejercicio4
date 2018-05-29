@@ -1,7 +1,17 @@
-let print = (t) =>{
+let print = (text) =>{
   let contador = 0;
-  while (t.length > contador) {
-  console.log(t[contador].toUpperCase())
-    contador++
+  while (text.length > contador) {
+  console.log(text[contador].toUpperCase()
+    contador++;
   }
+}
 let texto = prompt("escribe");// ingresa datos
+
+let spaces = (SpaceCounter) =>{
+  counter = 0;
+  for (let i = 0; i < text.length; i++){
+      if (text.charAt(i) === ''){
+      }
+  }
+
+}
